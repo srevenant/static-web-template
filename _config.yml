@@ -1,0 +1,25 @@
+title: {TITLE}
+description: >-
+  {DESCR}
+baseurl: ""
+url: ""
+
+# this is shared w/any node assets
+destination: public
+source: src
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+sass:
+  style: compressed
+plugins:
+  - jekyll-feed
+exclude:
+ - Gemfile
+ - Gemfile.lock
+ - node_modules
+ - vendor/bundle/
+ - vendor/cache/
+ - vendor/gems/
+ - vendor/ruby/

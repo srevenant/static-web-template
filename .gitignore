@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-metadata
+src/assets/bundle.js
+.build
+node_modules
+vendor
